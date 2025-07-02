@@ -1,6 +1,6 @@
 import logo from "../../assets/logos/meerusVR-logo.png";
-import Shape1 from "../../assets/logos/Logo1.png";
-import Shape2 from "../../assets/logos/Logo2.png";
+import layer1 from "../../assets/logos/layer1.png";
+import later2 from "../../assets/logos/layer2.png";
 
 const LoginRightSide = () => {
   return (
@@ -12,14 +12,14 @@ const LoginRightSide = () => {
         >
           {/* Shape 1 */}
           <img
-            src={Shape1}
+            src={layer1}
             alt="3D Shape Layer 1"
             className="absolute inset-0 w-full h-full object-contain z-20 scale-[2.4] -translate-x-3"
           />
 
           {/* Shape 2 */}
           <img
-            src={Shape2}
+            src={later2}
             alt="3D Shape Layer 2"
             className="absolute inset-0 w-full h-full object-contain z-10"
           />
